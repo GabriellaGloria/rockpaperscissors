@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+  <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+  <p class="title">Rock Paper Scissors</p>
+  <p class="choose">Choose your weapon!</p>
+  <div style="display: flex; flex-direction: row; font-family: 'Courier New', Courier, monospace; font-size: 30px; margin-top: -20px; margin-bottom: 0px;">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-right: 200px;">
+      <p style="margin-bottom: 10px;">You :</p>
+      <p id="playerScore">0</p>
+    </div>
+  
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <p style="margin-bottom: 10px;">Computer :</p>
+      <p id="compuScore">0</p>
+    </div>
+  </div>
+
+  <div class="btn-container" style="margin-top: -10px;">
+    <button class="play rock"><img  id="Rock" src="images/rock.png"></button>
+    <button class="play paper"><img  id="Paper" src="images/paper.png"></button>
+    <button class="play scissors"><img id="Scissors" src="images/scissors.png"></button>
+  </div>
+  <a href="javascript:window.location.href=window.location.href" style="text-decoration: none; font-style: bold; transition: 1s;">
+    <button style="padding: 10px; margin-top: 10px; font-family: 'Courier New', Courier, monospace; text-decoration: none;">Play Again?</button>
+  </a>
+  <script src="script.js"></script>
+
+</body>
+</html>
