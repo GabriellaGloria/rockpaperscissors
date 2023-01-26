@@ -27,6 +27,7 @@ p {
 .btn-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-left: 200px;
   margin-right: 200px;
 }

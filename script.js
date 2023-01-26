@@ -14,6 +14,9 @@ function generate(idName){
   let result = check(compu, player);
   console.log(player);
   console.log(compu);
+
+  document.getElementById("result").innerHTML = "You Choose " + player + ", Computer choose " + compu;
+  
   if(compu == player){
     // skip
   } else if(result == 1){

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <p class="title">Rock Paper Scissors</p>
+  <p class="title" style="margin-top: 10px;">Rock Paper Scissors</p>
   <p class="choose">Choose your weapon!</p>
   <div style="display: flex; flex-direction: row; font-family: 'Courier New', Courier, monospace; font-size: 30px; margin-top: -20px; margin-bottom: 0px;">
     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-right: 200px;">
@@ -25,8 +25,9 @@
       <p id="compuScore">0</p>
     </div>
   </div>
-
-  <div class="btn-container" style="margin-top: -10px;">
+  <p id="result" class="result" style="font-size: 30px; margin-top: -5px; margin-top: -10px; color: rgb(229, 255, 125);"></p>
+  <!-- image source : https://www.google.com/url?sa=i&url=https%3A%2F%2Freplit.com%2Ftalk%2Fshare%2FRock-Paper-Scissors-Game%2F119224&psig=AOvVaw3UUuSR6eftSXD3B2_zmg8z&ust=1674781462587000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOCSlKOF5PwCFQAAAAAdAAAAABAK -->
+  <div class="btn-container" style="margin-top: -20px;">
     <button class="play rock"><img  id="Rock" src="images/rock.png"></button>
     <button class="play paper"><img  id="Paper" src="images/paper.png"></button>
     <button class="play scissors"><img id="Scissors" src="images/scissors.png"></button>
